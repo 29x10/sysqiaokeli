@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sysmon</id>
+    <version>14.16</version>
+    <title>Sysmon</title>
+    <authors>Mark Russinovich,Thomas Garnier</authors>
+    <projectUrl>https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon</projectUrl>
+    <tags>freeware eventlog monitor tools sysinternals</tags>
+    <summary>Monitors and reports key system activity via the Windows event log</summary>
+    <description>System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
